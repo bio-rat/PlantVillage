@@ -36,7 +36,7 @@ def upload_file():
             return redirect(url_for('prediction', filename=filename))
     return '''
     <!doctype html>
-    <title>Upload image to classify disease</title>
+    <title>PlantVillage</title>
     <h1>Upload image to classify disease</h1>
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
